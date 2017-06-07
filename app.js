@@ -1,6 +1,6 @@
 'use strict';
 
-/*var question1 = prompt('Is Cameron from the United States? Y or N').toUpperCase();
+var question1 = prompt('Is Cameron from the United States? Y or N').toUpperCase();
 if (question1 === 'Y') {
   alert('Yes Cameron is from Texas!')
 } else {
