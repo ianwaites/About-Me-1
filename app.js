@@ -1,6 +1,6 @@
 'use strict';
 
-var score;
+var score = 0;
 
 var question1 = prompt('Is Cameron from the United States? Y or N').toUpperCase();
 if (question1 === 'Y') {
@@ -73,10 +73,10 @@ while(guessesLeft > 0) {
  for (var i = 0; i < favCars.length; i++){
    var question7 = prompt('What is my favorite car out of Tesla, Mercedes, Jaguar, BMW, Aston Martin, Ferrari?')
    if (question7.toLowerCase() === favCars[0].toLowerCase()) {
-     alert('Good Job, Your Right!');
+     alert('Good Job, Your Right! Game Over.');
      score++;
      guessesLeft = 0;
-     i = 7;
+     i = 6;
   }else if (question7.toLowerCase() === favCars[1].toLowerCase()) {
     alert('Their on my list, but not my favorite');
     guessesLeft--;
