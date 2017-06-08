@@ -1,4 +1,4 @@
-.background {
+.background {.
   opacity: .5;
 }
 body {
@@ -58,13 +58,14 @@ p {
     margin: 40px;
   }
   #q5 {
-    padding: 30px;
+    padding: 30pxmm ;
   }
   #footer {
     font-family: Impact;
     font-size: 30px;
     letter-spacing: .5em;
   }
-  b, #q5 {
+  .inspiration, #q5 {
     text-decoration: underline;
+    text-align: left;
   }
