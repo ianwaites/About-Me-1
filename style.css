@@ -1,4 +1,4 @@
-.background {.
+.background {
   opacity: .5;
 }
 body {
@@ -10,7 +10,7 @@ h1 {
   color: 	#009999;
   text-align: center;
   padding: 10px;
-  margin: 20px, 0px, 0px, 0px;
+  margin: 20px, 0, 0, 0;
   font-family: Arial Black;
   text-decoration: underline;
   f
@@ -22,12 +22,12 @@ h2 {
   text-align: center;
   padding: 10px;
   letter-spacing: .5em;
-}
-h2 {
   font-family: Impact;
 }
+
+
 p {
-  width: 300px 0px;
+  width: 300px;
   padding: 30px 10px;
   font: Arial;
   margin: 60px auto;
@@ -35,7 +35,7 @@ p {
   text-align: center;
   font-family: Arial Black;
   }
-  #qe, #qo {
+  .qe, .qo {
     letter-spacing: .3em;
     color: white;
     font-size: 40px;
@@ -43,7 +43,7 @@ p {
 
   }
 
-  #qo {
+  .qo {
     background-color: #009999;
   }
   #q2 {
@@ -58,7 +58,7 @@ p {
     margin: 40px;
   }
   #q5 {
-    padding: 30pxmm ;
+    padding: 30px ;
   }
   #footer {
     font-family: Impact;

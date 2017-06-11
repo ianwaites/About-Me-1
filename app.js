@@ -1,4 +1,4 @@
-'use strict';
+/*'use strict';
 
 var score = 0;
 
@@ -26,7 +26,9 @@ function ques2(){
   };
   console.log('Cameron moved 6 times');
 }
+
 ques2();
+
 // Question 3
 function ques3(){
   var question3 = prompt('Is Cameron a vegan? Y or N').toUpperCase();
