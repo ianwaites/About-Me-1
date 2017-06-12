@@ -19,10 +19,12 @@ h2 {
   top: 4em;
   left: 40%;
   z-index:11;
+  font-family: Impact;
+  letter-spacing: .4em
 }
 .qo, .qe {
   position: relative;
-  top: 5em;
+  top: 2em;
   color: white;
   font-size: 7em;
 }
@@ -36,8 +38,29 @@ h2 {
 .qe {
   margin-left: 30%;
   background-color: #ff7b16;
-  padding-left: 1em;
+  padding-left: 2em;
 }
 .iname {
   font-style: italic;
+}
+.img {
+  position: relative;
+  top: 12em;
+  left: 40%;
+}
+.routines {
+  font-style: italic;
+}
+.footer {
+  position: relative;
+  top: 4em;
+  width: 100%;
+  background-color: #ff7b16;
+  color: black;
+  text-align: center;
+  font-size: 4em;
+  font-family: Impact;
+  text-transform: uppercase;
+  margin-bottom: 3em
+
 }
