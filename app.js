@@ -16,7 +16,7 @@ function ques1() {
 ques1();
 
 // Question 2
-function ques2(){
+function ques2() {
   var question2 = prompt('Did Cameron really move 12 times as a child? Y or N').toUpperCase();
   if (question2 === 'Y') {
     alert('Cameron only moved 6 times, not 12.');
@@ -24,9 +24,12 @@ function ques2(){
     alert('Correct! Cameron moved 6 times as a child.');
     score++;
   };
+
   console.log('Cameron moved 6 times');
 }
+
 ques2();
+
 // Question 3
 function ques3(){
   var question3 = prompt('Is Cameron a vegan? Y or N').toUpperCase();
@@ -41,7 +44,7 @@ function ques3(){
 ques3();
 
 // Question 4
-function ques4(){
+function ques4() {
   var question4 = prompt('Does Cameron need his coffee in the morning? Y or N').toUpperCase();
   if (question4 === 'Y') {
     alert('Unlike the rest of the Northwest, Cameron drinks green tea in the morning.');
@@ -49,12 +52,14 @@ function ques4(){
     alert('Right! Cameron does not drink coffee.');
     score++;
   };
+
   console.log('Cameron does not drink coffee.');
 }
+
 ques4();
 
 // Question 5
-function ques5(){
+function ques5() {
   var question5 = prompt('Is Bill Gates one of Camerons inspirations? Y or N').toUpperCase();
   if (question5 === 'Y') {
     alert('Cam has much respect, but Bill Gates is not his inspiration.');
@@ -62,42 +67,43 @@ function ques5(){
     alert('Right! Cameron is more of a Steve Jobs fan.');
     score++;
   };
+
   console.log('Cameron is a Steve Jobs fan');
 }
+
 ques5();
 
 // Question 6
-function ques6(){
+function ques6() {
   var favTemp = 88;
   var attempts = 4;
 
-  while(attempts > 0) {
+  while (attempts > 0) {
     var question6 = parseInt(prompt('What is my ideal temperature?'));
     if (question6 === favTemp) {
       alert('Correct, I like it toasty!');
       score++;
       attempts = 0;
-    }
-    else if (question6 < favTemp) {
+    }else if (question6 < favTemp) {
       alert('Nice try, but I prefer it a bit warmer.');
       attempts--;
-    }
-    else if (question6 > favTemp) {
+    }else if (question6 > favTemp) {
       alert('Nice try, but I do not like it that hot!');
       attempts--;
     }
   }
 }
+
 ques6();
 
 // Question 7
 function ques7() {
-  var favCars = ['Tesla', 'Mercedes', 'Jaguar','BMW', 'Aston Martin', 'Ferrari'];
+  var favCars = ['Tesla', 'Mercedes', 'Jaguar', 'BMW', 'Aston Martin', 'Ferrari'];
   var guessesLeft = 6;
 
   while(guessesLeft > 0) {
-    for (var i = 0; i < favCars.length; i++){
-      var question7 = prompt('What is my favorite car out of Tesla, Mercedes, Jaguar, BMW, Aston Martin, Ferrari?');
+    for (var i = 0; i < favCars.length; i++) {
+      var question7 = prompt('What is my favorite car out of Tesla, Mercedes, Jaguar, BMW, Aston Martin?');
       if (question7.toLowerCase() === favCars[0].toLowerCase()) {
         alert('Good Job, Your Right! Game Over.');
         score++;
@@ -125,6 +131,7 @@ function ques7() {
     }
   }
 }
+
 ques7();
 alert('Thank You for playing! You scored ' + score + ' out of 7.');
 console.log('Total Score is ' + score + '.');
